@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form</title>
+    <link rel="stylesheet" href="../form/form.css">
+</head>
+
+<body>
+    <div class="array">
+        <h1>Масиви в Java Script</h1>
+        <form name="form">
+            <fieldset >
+                <legend align="center"> Поля які будуть входити до масиву </legend>
+                <input type="text" data-form="ПІБ" class="text-data arr" name="fio" placeholder="Введіть ПІБ">
+                <input type="phone" data-form="Номер телефону" class="arr" name="phone" placeholder="+380-00-000-0000">
+                <input type="date" data-form="Дата народження" class="arr" name="birthday">
+                <input type="email" data-form="Електронна пошта" class="arr" placeholder="email@softserveinc.com"
+                    name="email">
+
+
+                <input type="submit" class="btn">
+            </fieldset>
+        </form>
+
+        <div class="out">
+            <table id="table">
+                <thead>
+                    <th>Name</th>
+                    <th>Number</th>
+                    <th>Birth</th>
+                    <th>Email</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/form/form.js"></script>
+</body>
+
+</html>
